@@ -10,6 +10,7 @@ dependencies = [
     "langchain-core>=1.2.9",
     "langchain-openai>=1.1.7",
     "opencv-python>=4.13.0.92",
+    "opencv-python-headless>=4.13.0.92",
     "python-dotenv>=1.2.1",
     "reportlab>=4.4.9",
     "streamlit>=1.54.0",

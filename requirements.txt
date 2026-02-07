@@ -2,7 +2,7 @@ langchain
 langchain-openai
 langchain-core
 langchain-community
-opencv-python
+opencv-python-headless
 python-dotenv
 reportlab
 streamlit
