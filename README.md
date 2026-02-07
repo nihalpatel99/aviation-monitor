@@ -4,7 +4,8 @@ AI-powered aircraft safety analysis system that detects damage, hazards, and ope
 
 ## 🌟 Live Demo
 
-**Deploy to Streamlit Cloud:** [[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-url.streamlit.app]
+**Deploy to Streamlit Cloud:**
+🔗 https://aviation-monitor-ewuljepmj5ewlsprjtvebf.streamlit.app/
 
 ## 🚀 Features
 
@@ -258,5 +259,6 @@ For issues:
 ---
 
 **Made with ❤️ for aviation safety**
+
 
 
