@@ -36,7 +36,7 @@ cd aircraft-safety-monitor
 pip install -r requirements_streamlit.txt
 
 # Run the app
-streamlit run app.py
+streamlit run main.py
 ```
 
 ### Environment Variables
@@ -54,7 +54,7 @@ OPENAI_API_KEY=your-api-key-here
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Click "New app"
 4. Select your forked repository
-5. Set main file path: `app.py`
+5. Set main file path: `main.py`
 6. Click "Deploy"
 
 ### Option 2: Manual Setup
@@ -72,7 +72,7 @@ OPENAI_API_KEY=your-api-key-here
    - Click "New app"
    - Repository: `yourusername/aircraft-safety-monitor`
    - Branch: `main`
-   - Main file path: `app.py`
+   - Main file path: `main.py`
 
 3. **Set Secrets (Optional)**
    - Go to app settings → Secrets
@@ -128,7 +128,8 @@ For production deployment:
 
 ```
 aircraft-safety-monitor/
-├── app.py                          # Main Streamlit application
+├── aircraft_video_analysis.py 
+├── main.py                          # Main Streamlit application
 ├── requirements_streamlit.txt      # Python dependencies
 ├── .streamlit/
 │   └── config.toml                 # Streamlit configuration
@@ -259,6 +260,7 @@ For issues:
 ---
 
 **Made with ❤️ for aviation safety**
+
 
 
 
